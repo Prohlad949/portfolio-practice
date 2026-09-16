@@ -1,0 +1,27 @@
+*{
+    margin: 5px auto;
+}
+nav{
+    background-image:url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    
+}
+.banner{
+width: 632px;
+height: 246px;
+text-align: center;
+padding: 177px 344px 177px 344px; 
+
+}
+.banner-titile{
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+.banner-heading{
+    font-weight: bolder;
+    font-size: 72px;
+    color: rgba(255, 255, 255, 1);
+}
