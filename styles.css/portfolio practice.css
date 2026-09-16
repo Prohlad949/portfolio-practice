@@ -30,6 +30,7 @@ nav {
   height: 806px;
   padding: 129px 260px 111px 260px;
   text-align: center;
+  margin-bottom: 130px;
 }
 .section-heading {
   font-weight: 383px;
@@ -45,4 +46,38 @@ nav {
   font-weight: bold;
   font-size: 48px;
   color: rgba(7, 2, 17, 1);
+}
+
+/* Hero Section */
+.hero {
+    height: 600px;
+    width: 1320px;
+    position: relative;
+
+    background-image: url(../images/Vectorrr.png);
+    background-size: cover;
+    display: flex;
+}
+.content h1{
+    font-weight: 642px;
+    color: rgba(255, 255, 255, 1);
+    margin: 120px 94px 24px 143px;
+}
+.content p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 24px 40px 32px 143px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin: 48px 550px 148px 175px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.year{
+    width: 319px;
+    height: 464px;
+    margin: 68px 138px 68px 0;
 }
