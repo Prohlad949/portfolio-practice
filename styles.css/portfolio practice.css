@@ -50,34 +50,73 @@ nav {
 
 /* Hero Section */
 .hero {
-    height: 600px;
-    width: 1320px;
-    position: relative;
+  height: 600px;
+  width: 1320px;
+  position: relative;
 
-    background-image: url(../images/Vectorrr.png);
-    background-size: cover;
-    display: flex;
+  background-image: url(../images/Vectorrr.png);
+  background-size: cover;
+  display: flex;
 }
-.content h1{
-    font-weight: 642px;
-    color: rgba(255, 255, 255, 1);
-    margin: 120px 94px 24px 143px;
+.content h1 {
+  font-weight: 642px;
+  color: rgba(255, 255, 255, 1);
+  margin: 120px 94px 24px 143px;
 }
-.content p{
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.8);
-    margin: 24px 40px 32px 143px;
+.content p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 24px 40px 32px 143px;
 }
-.btn{
-    font-weight: bold;
-    font-size: 20px;
-    color: rgba(255, 255, 255, 1);
-    margin: 48px 550px 148px 175px;
-    cursor: pointer;
-    text-decoration: none;
+.btn {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  margin: 48px 550px 148px 175px;
+  cursor: pointer;
+  text-decoration: none;
 }
-.year{
-    width: 319px;
-    height: 464px;
-    margin: 68px 138px 68px 0;
+.year {
+  width: 319px;
+  height: 464px;
+  margin: 68px 138px 68px 0;
+}
+
+/* event card styles */
+.card-event {
+  margin-top: 100px;
+  width: 1120px;
+  height: 400   px;
+  padding: 100px;
+  text-align: center;
+  background: lightpink;
+  border-radius: 16px;
+}
+
+.card-details p {
+  font-size: 32px;
+  font-weight: 800px;
+  color: #000000;
+  margin-bottom: 48px;
+}
+
+.card-details .event-span {
+  color: #ff0000;
+}
+
+.btn-card {
+  margin-top: 48px;
+  padding: 16px 32px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.btn-card:hover {
+  background-color: #d60000;
 }
